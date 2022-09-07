@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: rgb(68, 66, 66);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    height: 60px;
+    width: 140px;
+    margin-top: 2px;
+}
+.check-btn{
+    font-size: 32px;
+    display: none;
+}
+#click{
+    display: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+ }
+ ul li{
+    padding: 4px;
+    margin: 4px;
+    
+ }
+ ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+ }
+.icons{
+    line-height: 70px;
+    font-size: 30px;
+    color: black;
+}
+.nav-head{
+    color: white;
+    margin-top: 18px;
+}
+.nav-icon{
+    background-color: white;
+    border-radius: 50%;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color:red;
+}
+/* BANNER SECTION STARTS HERE */
+.banner-sec{
+    height: 33rem;
+    width: 100%;
+    background: url(assets/banner-img.jpg) no-repeat center center/cover;
+}
+#carouselExampleControls > div > div.carousel-item.active > img{
+    height: 35rem;
+    width: 100%;
+}
+.banner-head{
+    color: white;
+    text-shadow: 2px 4px 4px black;
+    position: absolute;
+    top: 23rem;
+    left: 64rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+      }
+.banner-head2{
+    color: white;
+    text-shadow: 2px 4px 4px black;
+    position: absolute;
+    top: 26.5rem;
+    left: 69.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+hr{
+    width: 10rem;
+    position: absolute;
+    left: -5rem;
+    top: 3.8rem;
+    }
+.hr2{
+    position: absolute;
+    left: 10rem;
+}
+.banner-img2{
+    height: 80px;
+    width: 140px;
+    position: absolute;
+    left: 67rem;
+    top: 31rem;
+    
+}
+
+/* spirit section starts here */
+.spirit-sec{
+    background-color:rgb(231, 216, 216);
+    height: 39rem;
+    width: 100%;
+}
+.spirit-head{
+    border-radius: 0px;
+color: #9e8686;
+    letter-spacing: 2px;
+position: absolute;
+top: 40rem;
+left: 30%;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bolder;
+}
+body > div.container-fluid.spirit-sec > div > div > div > img{
+    height: 20rem;
+}
+.card-sec{
+    margin-top:8rem;
+    margin: 1rem;
+}
+.card-main{
+    position: absolute;
+    top: 43rem;
+    left: 16%;
+
+}
+.card-btn{
+    outline: none;
+    border: none;
+    background-color: red;
+    padding: 4px;
+    width:200px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: transform;
+    transition: background-color;
+    transition-duration: .2s;
+}
+.card-btn:hover{
+    background-color: #9e8686;
+    transform: scale(.95);
+}
+.spirit-btn{
+    border: none;
+    outline: none;
+    padding: 4px;
+    color: #9e8686;
+    width: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    box-shadow: 0px 0px 4px 2px #9e8686;
+    position: absolute;
+    top: 72rem;
+    left: 45%;
+}
+.spirit-btn:hover{
+    transform: scale(.90);
+}
+/* STORY SECTION STARTS HERE */
+#story-sec{
+    height: 22rem;
+    width: 100%;
+    background: url(assets/story-img.jpg) no-repeat center center/cover;
+}
+.story-head{
+    color: white;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    top: 83rem;
+    left: 42%;
+    letter-spacing: 2px;
+    text-shadow: 4px 2px 2px 4px black;
+}
+.story-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 4px;
+    margin-left: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    margin-top: 12rem;
+}
+.story-btn:hover{
+    transform: scale(.95);
+    border: 1px solid black;
+}
+#dis-sec{
+    height: 30rem;
+}
+.dis-head{
+    color: rgb(68, 66, 66);
+    position: absolute;
+    top: 102rem;
+    left: 40%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.dis-para{
+    width: 600px;
+    margin-left: 28%;
+    margin-top: 8rem;
+}
+.dis-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 4px;
+    color:black;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.dis-btn:hover{
+    transform: scale(.90);
+}

@@ -1,0 +1,134 @@
+@media only screen and (max-width : 820px){
+    .banner-head{
+        position: absolute;
+        left: 34rem;
+        top: 23rem;
+        width: 100px;
+       
+    }
+    .banner-head2{
+        position: absolute;
+        left: 38.5rem;
+        top: 26rem;
+        width: 100px;
+    }
+    hr{
+       
+        color:white;
+        width: 6rem;
+        position: absolute;
+        left: -2rem;
+        top:3.3rem
+    }
+    .hr2{
+        width: 6rem;
+        color: white;
+        position: absolute;
+        left: 8rem;      
+        top:3.3rem
+    }
+    .banner-img2{
+        position: absolute;
+        left: 35rem;
+        top: 30rem;
+    }
+    /* spirit-sec */
+    body > div.container-fluid.spirit-sec > div > div:nth-child(n){
+        width: 280px;
+        position:relative;    
+    }
+    .spirit-sec{
+        height: 68rem;
+    }
+    .card-sec{
+        margin: 1rem;
+    }
+    .spirit-head{
+        position: absolute;
+        left: 10rem;
+    }
+    .spirit-btn{
+        position: absolute;
+        left: 20rem;
+        top: 100rem;
+    }
+   
+    .dis-head{
+        position: absolute;
+        top: 131rem;
+        left: 17rem;
+    }
+    .dis-para{
+        position: relative;
+        left: -8rem;
+    }
+    
+   
+}
+
+@media only screen and (max-width : 770px) {
+    .banner-head{
+        position: absolute;
+        left:32rem;
+    }
+    .banner-head2{
+        position: absolute;
+        left: 36.5rem;
+    }
+    /* spirit se */
+  
+}
+
+@media only screen and (max-width : 420px) {
+    .nav-bar ul{
+        padding: 8px;
+        position: fixed;
+        height: 37vh;
+        width: 100%;
+        display:block;
+        top: 60px;
+        left: 0;
+        text-align: center;
+        background-color:gray;
+        left: -100%;
+        transition: all .4s ease;
+    }
+
+    .check-btn{
+        display: block;
+        line-height: 70px;
+    }
+    .nav-bar ul li{
+        display: block;
+       
+    }
+    ul li a{
+        font-size: larger;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    .banner-head{
+        position: absolute;
+        left: 12rem;
+    }
+    .banner-head2{
+        position: absolute;
+        left:16rem;
+        top: 25rem;
+    }
+    hr{
+        position: absolute;
+        top: 2rem;
+        left:-2rem;
+    }
+    .hr2{
+        position: absolute;
+        top: 2rem;
+        left:6.7rem;
+    }
+    .banner-img2{
+        position: absolute;
+        left: 13rem;
+    }
+}
